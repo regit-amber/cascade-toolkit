@@ -1,0 +1,17 @@
+@import "../scss/typography.scss";
+@import "../scss/button.scss";
+.endpoints{
+    width: 100%;
+    min-width: 40rem;
+    &__title{
+        @extend %heading;
+    }
+    &__list{
+        width: 100%;
+    }
+
+    &__new{
+        @extend %btn;
+        @extend %btn--svg;
+    }
+}
